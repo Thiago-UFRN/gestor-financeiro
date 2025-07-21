@@ -28,7 +28,7 @@ export default async function MainLayout({ children }) {
     <div className="min-h-screen text-gray-800 bg-gray-50 dark:bg-gray-900 dark:text-gray-100">
       <header className="sticky top-0 z-10 bg-white shadow-sm dark:bg-gray-800 dark:border-b dark:border-gray-700">
         <nav className="container flex items-center justify-between p-4 mx-auto">
-          <div className="flex items-center space-x-8">
+          <div className="flex items-center gap-4">
             <Link href="/dashboard" className="text-lg font-bold text-indigo-600 dark:text-indigo-400">
               Meu Gestor Financeiro
             </Link>
